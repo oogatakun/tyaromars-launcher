@@ -1244,7 +1244,7 @@ function populateAboutVersionInformation() {
  */
 function populateReleaseNotes() {
     $.ajax({
-        url: 'https://github.com/oogatakun/tyaromars-launcher/releases.atom',
+        url: 'https://x.com/tyaromars',
         success: (data) => {
             const version = 'v' + remote.app.getVersion()
             const entries = $(data).find('entry')
